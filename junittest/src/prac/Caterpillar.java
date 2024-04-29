@@ -52,6 +52,11 @@ System.out.println("Moves made =" + getMoves());
 System.out.println("Cabbages eaten =" + getCabbages_eaten());
 }
 
+
+
+
+
+
 public static void main(String[] args) {
 // TODO Auto-generated method stub
 Caterpillar fred = new Caterpillar(0,0);
