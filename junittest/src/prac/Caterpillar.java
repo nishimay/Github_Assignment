@@ -42,6 +42,8 @@ void move()
 {
 setMoves(getMoves() + 1);
 }
+
+
 void eat()
 {
 this.setCabbages_eaten(this.getCabbages_eaten() + 1);
@@ -51,8 +53,6 @@ void display()
 System.out.println("Moves made =" + getMoves());
 System.out.println("Cabbages eaten =" + getCabbages_eaten());
 }
-
-
 
 
 
